@@ -13,6 +13,10 @@ License: GPL2
  * This plugin creates a simple widget
  */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 // Activate the widget
 
 add_action('widgets_init', 'test_widget');
